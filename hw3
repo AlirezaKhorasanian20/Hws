@@ -1,0 +1,17 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    double a , b ,result ;
+    cout << "please enter 2 float number \n";
+    cout << "Enter a : ";
+	cin >> a ;
+    cout << "Enter b : ";
+    cin >> b ;
+    cout<<"\nSum "<<a<<" and "<<b<<" Is : "<<a+b;
+    cout<<"\n\nMin "<<a<<" and "<<b<<" Is : "<<a-b;
+    cout<<"\n\nMull "<<a<<" and "<<b<<" Is : "<<a*b;
+    double answer = fmod(a,b);
+    cout<<"\n\nReminder "<<a<<" And "<<b<<" Is : "<<answer;
+return 0 ;
+}
